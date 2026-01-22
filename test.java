@@ -18,4 +18,5 @@ int b = 2;
 float num1 =(float) a/b;
         System.out.println(num1);
     }
+    
 }
