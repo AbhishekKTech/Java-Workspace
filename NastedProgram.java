@@ -5,7 +5,7 @@ public class NastedProgram {
                             System.out.print(j);
 
             }
-            System.out.println();
+            System.out.println(" ");
         }
     }
 }
