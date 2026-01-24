@@ -1,6 +1,6 @@
 public class LoopsPractice {
     public static void main(String[] args) {
-        int n = 5;
+        int n = 10;
     //     for (int i = 1; i <= n; i++) {
             
     //         for (int j = 1; j <= n; j++) {
@@ -14,16 +14,42 @@ public class LoopsPractice {
     //     }
     // }
 
-            for (int i = 1; i <= n; i++) {
+    //I latter
+        //     for (int i = 1; i <= n; i++) {
             
-            for (int j = 1; j <= n; j++) {
-                if (i == 1 || i == n || j == 1 || j == n || j ==n+1) {
+        //     for (int j = 1; j <= n; j++) {
+        //         if (i == 1 || i == n || j == n/2) {
+        //             System.out.print("*");
+        //         } else {
+        //             System.out.print(" ");
+        //         }
+        //     }
+        //     System.out.println( );
+        // }
+
+            //E latter
+
+        // for(int i = 1; i<= n; i++){
+        //     for(int j = 1; j<= n; j++){
+        //         if (i == 1 ||i == n/2 || i == n || j == 1 ) {
+        //             System.out.print("*");
+        //         }
+        //         else{
+        //         System.out.print(" ");}
+        //     }
+        //     System.out.println();
+        // }
+
+        // F latter
+        for(int i = 1; i<=n; i++){
+            for(int j = 1; j<=n ; j++){
+                if (i==1 || i == n/2 || j==1) {
                     System.out.print("*");
-                } else {
-                    System.out.print(" ");
-                }
+                }else{
+                System.out.print(" ");}
             }
-            System.out.println();
+                System.out.println();
+
         }
     }
 }
