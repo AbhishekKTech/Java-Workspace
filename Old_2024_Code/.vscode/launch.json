@@ -1,0 +1,266 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "demo2",
+            "request": "launch",
+            "mainClass": "demo2",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Logical",
+            "request": "launch",
+            "mainClass": "Logical",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "OOPS",
+            "request": "launch",
+            "mainClass": "OOPS",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Oops1",
+            "request": "launch",
+            "mainClass": "Oops1",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Relationol",
+            "request": "launch",
+            "mainClass": "Relationol",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "Ternary",
+            "request": "launch",
+            "mainClass": "Ternary",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "arrayException",
+            "request": "launch",
+            "mainClass": "arrayException",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "array_2d",
+            "request": "launch",
+            "mainClass": "array_2d",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "comple",
+            "request": "launch",
+            "mainClass": "comple",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "demo3",
+            "request": "launch",
+            "mainClass": "demo3",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "doWhile",
+            "request": "launch",
+            "mainClass": "doWhile",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "enhanchedFor1D",
+            "request": "launch",
+            "mainClass": "enhanchedFor1D",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "enhanchedFor2D",
+            "request": "launch",
+            "mainClass": "enhanchedFor2D",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "evulate",
+            "request": "launch",
+            "mainClass": "evulate",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "forLoop",
+            "request": "launch",
+            "mainClass": "forLoop",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "incrementAndDecrement",
+            "request": "launch",
+            "mainClass": "incrementAndDecrement",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "jagged",
+            "request": "launch",
+            "mainClass": "jagged",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "launch",
+            "request": "launch",
+            "mainClass": "launch",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "lenght",
+            "request": "launch",
+            "mainClass": "lenght",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "onditionalfElse",
+            "request": "launch",
+            "mainClass": "onditionalfElse",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "parten_programing",
+            "request": "launch",
+            "mainClass": "parten_programing",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "parttern2",
+            "request": "launch",
+            "mainClass": "parttern2",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "pattern3",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern4",
+            "request": "launch",
+            "mainClass": "pattern4",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern5",
+            "request": "launch",
+            "mainClass": "pattern5",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern6",
+            "request": "launch",
+            "mainClass": "pattern6",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern7",
+            "request": "launch",
+            "mainClass": "pattern7",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "pattern8",
+            "request": "launch",
+            "mainClass": "pattern8",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "whileLoop",
+            "request": "launch",
+            "mainClass": "whileLoop",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "zero_4",
+            "request": "launch",
+            "mainClass": "zero_4",
+            "projectName": "workspace_41b14c37"
+        },
+        {
+            "type": "java",
+            "name": "zero_5",
+            "request": "launch",
+            "mainClass": "zero_5",
+            "projectName": "workspace_41b14c37"
+        }
+    ]
+}
