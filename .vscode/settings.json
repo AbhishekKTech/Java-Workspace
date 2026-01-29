@@ -1,11 +1,11 @@
 {
-    // --- 1. UPDATES & TELEMETRY (Internet & Speed Bachao) ---
+    // --- 1. UPDATES & TELEMETRY ---
     "java.server.launchMode": "Hybrid",
     "update.mode": "none",
     "extensions.autoUpdate": false,
     "telemetry.telemetryLevel": "off",
     
-    // --- 2. UI PERFORMANCE (RAM Bachao) ---
+    // --- 2. UI PERFORMANCE ---
     "workbench.startupEditor": "none",
     "editor.minimap.enabled": false,
     "editor.smoothScrolling": false,
@@ -13,22 +13,14 @@
     "workbench.list.smoothScrolling": false,
     "terminal.integrated.gpuAcceleration": "off",
 
-    // --- 3. JAVA LIGHT MODE (Fast Startup) ---
+    // --- 3. JAVA LIGHT MODE ---
     "java.import.maven.enabled": false,
     "java.import.gradle.enabled": false,
-    
-    // [CHANGE 1] AutoBuild ko ON rehne do (Line hata di), 
-    // taaki Copilot errors dekh sake aur solution bata sake.
     "java.debug.settings.onBuildFailureProceed": true,
 
-    // [CHANGE 2] Yahan se maine wo lines DELETE kar di hain jo 
-    // Copilot aur Chat ko "False/Hidden" kar rahi thin.
-    // Ab Copilot Script ke hisaab se chalega (College=ON, Pendrive=OFF).
-
-    // --- 4. UI CLEANUP (Hints Band) ---
+    // --- 4. UI CLEANUP ---
     "editor.codeLens": false,
     "editor.breadcrumbs.enabled": false,
-    "editor.formatOnType": false,
     "editor.formatOnPaste": false,
     "java.referencesCodeLens.enabled": false,
     "java.implementationsCodeLens.enabled": false,
@@ -36,7 +28,7 @@
     // --- 5. MEMORY OPTIMIZATION ---
     "java.jdt.ls.vmargs": "-Xmx512m -XX:+UseSerialGC",
     
-    // --- 6. FILE HIDING (Kachra Chupao) ---
+    // --- 6. FILE HIDING ---
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -50,5 +42,10 @@
         "**/node_modules": true,
         "**/bower_components": true,
         "**/*.class": true
-    }
+    }, // <--- YAHAN COMMA (,) JAROORI HAI
+
+    // --- 7. IGNORE OLD CODE (Errors Fix) ---
+    "java.import.exclusions": [
+        "**/Old_2023_Code/**"
+    ]
 }
