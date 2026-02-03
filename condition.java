@@ -4,7 +4,7 @@ public class condition {
         String vehicle = "car";
     
 
-        if (vehicle.equals("bike")) {
+        if (vehicle.equals("bike ")) {
             if (speed > 1 && speed < 60) {
                 System.out.println("good bike driver");
             } else {
