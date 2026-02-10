@@ -1,0 +1,23 @@
+name: Java CI
+
+# Ye tab chalega jab tum push karoge
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1. Tumhara code checkout karega
+    - uses: actions/checkout@v3
+    
+    # 2. Java environment set karega (JDK 17)
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        
+    # 3. Check karega ki saari .java files sahi hain ya nahi
+    - name: Compile Java Files
+      run: javac *.java
