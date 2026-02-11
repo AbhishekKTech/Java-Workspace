@@ -1,3 +1,5 @@
+[![Java CI](https://github.com/AbhishekKTech/Java-Workspace/actions/workflows/main.yml/badge.svg)](https://github.com/AbhishekKTech/Java-Workspace/actions/workflows/main.yml)
+
 # ☕ Java Workspace
 
 ### 🚀 Daily Java Practice & Problem Solving
