@@ -23,8 +23,7 @@ public class serialaztion {
 
     // Corrected the file name and the type of the second argument
     FileOutputStream fos = new FileOutputStream("File.txt");
-    // ObjectOutputStream oos = new ObjectOutputStream(fos);
-    BufferedOutputStream oos = new BufferedOutputStream(fos);
+    ObjectOutputStream oos = new ObjectOutputStream(fos);
     oos.writeObject(st);
     oos.flush();
     oos.close();

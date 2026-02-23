@@ -1,18 +1,15 @@
-public class String1 {
-    public static void main(String[] args){
+class String1 {
+    public static void main(String[] args) {
 
-        //-------------inmutable strig -------------
+        //------------- immutable string -------------
 
-        String brand = ("Mc Donlads");    
+        String brand = "Mc Donlads";
 
-        StringBuilder brand1 = new StringBuilder("Mc Donlads");   // it will save in same heap outshide Scp memory and shows false
+        StringBuilder brand1 = new StringBuilder("Mc Donlads"); // stored in heap, outside SCP
 
-
-        if(brand == brand1)  // ------( == oprator ) use to compaere string 
-        {
+        if (brand.equals(brand1.toString())) { // compare contents, not references
             System.out.println("True");
-        }
-        else{
+        } else {
             System.out.println("False");
         }
     }

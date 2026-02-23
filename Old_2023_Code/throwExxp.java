@@ -22,7 +22,7 @@ class Demo{
 } 
 public class throwExxp {
     public static void main(String[] args){
-        a obj = new a();
-        obj.a()
+        Demo obj = new Demo();
+        obj.a();
     }
 }
