@@ -18,7 +18,7 @@ class demo {
 public class Constructor1 {
 	public static void main(String[] args) {
 
-        demo abhieee = demo();
+		demo abhieee = new demo(8, 7);
 		demo abhie = new demo(8, 7);
 
 		abhie.desply();

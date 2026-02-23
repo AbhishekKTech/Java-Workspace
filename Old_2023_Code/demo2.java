@@ -8,12 +8,9 @@ class demo {
         System.out.println(j);
     }
 
-    public class demo2 {
-    public static void main(String[] args)
+    public static void main(String[] args) {
         demo abhie = new demo();
 
         abhie.desply();
-
-
     }
 }
